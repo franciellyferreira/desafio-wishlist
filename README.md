@@ -10,7 +10,7 @@ gerenciar os produtos favoritos dos clientes.
 
 ### Clonar repositório
 
-Clonar o repositório no seu computador:
+Clone o repositório no seu computador:
 ```bash
 $ cd pasta-desejada
 $ git clone https://github.com/franciellyferreira/desafio-wishlist.git
@@ -18,8 +18,7 @@ $ git clone https://github.com/franciellyferreira/desafio-wishlist.git
 
 ### Banco de dados
 <p>
-Criar um banco de dados MySQL em desenvolvimento ou produção e 
-alterar o arquivo settings.py com os dados de conexão.
+Crie um banco de dados MySQL e altere o arquivo settings.py com os dados de conexão abaixo.
 </p>
 
 DATABASES = {<br />
