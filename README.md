@@ -91,7 +91,6 @@ $ python3 manage.py runserver
 [API - Wishlist](http://127.0.0.1:8000)
 
 ## Endpoints da API
--------------------
 
 Foi utilizado o Postman para gerar uma documentação acessível:<br />
 [Documentação da API](https://documenter.getpostman.com/view/2628786/SW18wvPe?version=latest)
