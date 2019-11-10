@@ -1,5 +1,4 @@
 # Desafio Wishlist (Lista de Produtos Favoritos)
-================================================
 
 <p>
 Foi criada uma API para atender a necessidade de 
@@ -8,7 +7,6 @@ gerenciar os produtos favoritos dos clientes.
 
 
 ## Como executar a API
-----------------------
 
 ### Clonar repositório
 
@@ -23,18 +21,18 @@ $ git clone https://github.com/franciellyferreira/desafio-wishlist.git
 Criar um banco de dados MySQL em desenvolvimento ou produção e 
 alterar o arquivo settings.py com os dados de conexão.
 </p>
-```bash
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nome-do-banco',
-        'USER': 'nome-do-usuario',
-        'PASSWORD': 'senha-do-usuario',
-        'HOST': 'ip-do-host',
-        'PORT': 'porta-do-host',
-    }
+
+DATABASES = {<br />
+    'default': {<br />
+        'ENGINE': 'django.db.backends.mysql',<br />
+        'NAME': 'nome-do-banco',<br />
+        'USER': 'nome-do-usuario',<br />
+        'PASSWORD': 'senha-do-usuario',<br />
+        'HOST': 'ip-do-host',<br />
+        'PORT': 'porta-do-host',<br />
+    }<br />
 }
-```
+
 
 ### Virtualenv
 
@@ -96,10 +94,8 @@ $ python3 manage.py runserver
 ## Endpoints da API
 -------------------
 
-<p>
-Para fornecer uma documentação rápida e acessível foi criada no Postman a seguinte 
-[documentação da API](https://documenter.getpostman.com/view/2628786/SW18wvPe?version=latest)
-</p>
+Foi utilizado o Postman para gerar uma documentação acessível:<br />
+[Documentação da API](https://documenter.getpostman.com/view/2628786/SW18wvPe?version=latest)
 
 ### Gerar token para autenticação
 
