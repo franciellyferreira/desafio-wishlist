@@ -10,7 +10,7 @@ gerenciar os produtos favoritos dos clientes.
 
 ### Clonar repositório
 
-Clonar o repositório no seu computador:
+Clone o repositório no seu computador:
 ```bash
 $ cd pasta-desejada
 $ git clone https://github.com/franciellyferreira/desafio-wishlist.git
@@ -18,8 +18,7 @@ $ git clone https://github.com/franciellyferreira/desafio-wishlist.git
 
 ### Banco de dados
 <p>
-Criar um banco de dados MySQL em desenvolvimento ou produção e 
-alterar o arquivo settings.py com os dados de conexão.
+Crie um banco de dados MySQL e altere o arquivo settings.py com os dados de conexão abaixo.
 </p>
 
 DATABASES = {<br />
@@ -92,7 +91,6 @@ $ python3 manage.py runserver
 [API - Wishlist](http://127.0.0.1:8000)
 
 ## Endpoints da API
--------------------
 
 Foi utilizado o Postman para gerar uma documentação acessível:<br />
 [Documentação da API](https://documenter.getpostman.com/view/2628786/SW18wvPe?version=latest)
